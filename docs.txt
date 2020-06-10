@@ -1,0 +1,7 @@
+curl -X PUT -H "Content-Type: application/json" -d '{"text":"maryyyyyy"}' http://localhost:5000/api/post?id=5ed9f92039552995f45c8c72
+
+
+curl --data '{"text":"title2"}' -H "Content-Type: application/json" -X POST http://localhost:5000/api/post
+
+
+curl --data '{"text":"xyz"}' -H "Content-Type: application/json" -X POST http://localhost:5000/api/post
